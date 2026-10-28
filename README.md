@@ -13,7 +13,7 @@
 Використати Smart Commit:  git commit -m "DEV-4 #time 30m #comment Add instructions to README" 
 Переключитись: git checkout main 
 Зробити merge: git merge development
-Перевірити: git status → nothing to commit, working tree clean; git log --oneline --graph --all — видны оба коммита, main и development на одном коммите.
+Перевірити: git status повинно бути nothing to commit, working tree clean;
 Створити репозиторий new-project на Github
 Зв'язати репозиторії: git remote add origin https://github.com/<user>/new-project.git
 Залити main git push -u origin main 
